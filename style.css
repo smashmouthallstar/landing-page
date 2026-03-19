@@ -56,3 +56,15 @@ ul {
 	justify-content: center;
 	align-items: center;
 }
+
+div.header img,
+div.header ul,
+div.row h1,
+div.row p,
+div.row button,
+div.row img,
+div.row h2,
+div.row h3 { /* Temporary fix for content margin. There has to be a better way to do this. */
+	margin-left: 120px;
+	margin-right: 120px;
+}
