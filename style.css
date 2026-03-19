@@ -1,12 +1,13 @@
 * {
 	font-family: Roboto, Arial, Verdana;
 }
-html,body {
-	height: 100vh;
+
 body {
 	display: flex;
 	flex-flow: column;
 	justify-content: space-between;
+	margin: 0;
+	height: 100vh;
 }
 
 .header,
