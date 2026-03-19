@@ -22,10 +22,26 @@ ul,
 	display: flex;
 }
 
+.header,
+.footer {
+	height: 50px;
+}
+
 .header {
 	justify-content: space-between;
 	color: #F9FAF8;
 	font-size: 24px;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	flex: 1;
+}
+
+.row {
+	flex: 1;
 }
 
 ul {
