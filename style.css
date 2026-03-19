@@ -1,15 +1,23 @@
 * {
 	font-family: Roboto, Arial, Verdana;
 }
+html,body {
+	height: 100vh;
+body {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
 
 .header,
-#one.row,
+#one,
 .footer {
 	background-color: #1F2937;
 }
 
 .header,
-ul {
+ul,
+.footer {
 	display: flex;
 }
 
