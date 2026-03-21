@@ -53,6 +53,12 @@ ul {
 	color: #E5E7EB;
 }
 
+h1 {
+	font-size: 48px;
+	color: #F9FAf8;
+	font-weight: 900;
+}
+
 #two {
 	display: flex;
 	justify-content: center;
