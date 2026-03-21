@@ -71,6 +71,11 @@ h1 {
 	font-weight: 900;
 }
 
+.heroleft,
+.heroright {
+	flex: 1;
+}
+
 #two {
 	justify-content: center;
 	flex-flow: wrap;
@@ -115,11 +120,19 @@ h2 {
 }
 
 #four div.action,
-#four button.signup {
+button.signup {
 	background: #3882F6;
 	color: #F9FAF8;
 	border: 1px solid #F9FAF8;
 	border-radius: 5px;
+}
+
+button.signup {
+	padding: 4px 15px;
+}
+
+#one button.signup {
+	border: none;
 }
 
 /* New page margin */
