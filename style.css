@@ -77,6 +77,9 @@ h2 {
 	flex: 1 0 100%;	
 	margin: 0 auto;
 	justify-content: center;
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 900;
 }
 
 .card {
