@@ -150,6 +150,19 @@ div.action {
 	flex-flow: row;
 }
 
+#three p {
+	text-align: center;
+	font-style: italic;
+}
+
+#three span {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 1.25rem;
+	font-weight: bold;
+	font-style: normal;
+}
+
 .actionleft,
 .actionright {
 	display: flex;
