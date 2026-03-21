@@ -55,6 +55,11 @@ ul {
 
 /* Hero secondary and header link color and size */
 ul,
+
+#one {
+	justify-content: space-around;
+}
+
 #one p {
 	color: #E5E7EB;
 	font-size: 18px;
@@ -92,6 +97,7 @@ h2 {
 .box {
 	flex: 0 1 0;
 	justify-content: space-around;
+	text-align: center;
 }
 
 
@@ -115,7 +121,14 @@ h2 {
 	border: 1px solid #F9FAF8;
 	border-radius: 5px;
 }
-	
+
+/* New page margin */
+.header,
+div.row,
+.footer {
+	padding: 0 15%;
+}
+
 div.action {
 	padding: 16px;
 }
