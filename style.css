@@ -135,12 +135,19 @@ button.signup {
 	border: none;
 }
 
-/* New page margin */
+/* Content Margin */
 .header,
 div.row,
 .footer {
 	padding: 0 15%;
 }
+
+#two,
+#three {
+	padding: 0 20%;
+}
+
+/* Content Margin */
 
 div.action {
 	display: flex;
