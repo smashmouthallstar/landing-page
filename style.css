@@ -196,6 +196,14 @@ div.action {
 	font-style: normal;
 }
 
+#three span.brand {
+	display: inline;
+	font-size: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	text-decoration: underline;
+}
+
 .actionleft,
 .actionright {
 	display: flex;
