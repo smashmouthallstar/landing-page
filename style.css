@@ -166,9 +166,12 @@ button.signup {
 /* Content Margin */
 .header,
 div.row,
-#four,
+#four {
+	padding: 2% 15%;
+}
+
 .footer {
-	padding: 4% 15%;
+	padding: 1% 15%;
 }
 
 #two,
@@ -233,4 +236,17 @@ div.action {
 .footer {
 	justify-content: center;
 	align-items: center;
+	align-content: center;
+	flex-flow: wrap;
+	text-align: center;
+	gap: 0px;
+}
+
+.footer > * {
+	display: flex;
+	flex-basis: 100%;
+	flex-shrink: 0;
+	justify-content: center;
+	align-self: center;	
+	margin: 5px;
 }
