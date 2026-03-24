@@ -1,9 +1,7 @@
 # landing-page
 CSS Practice Project  
   
-A landing page project from scratch, given minor instructions  
-and based on a joke(?) my sister made about a website where  
-rich people compete to give charity.  
+A landing page project from scratch, given minor instructions and based on a joke(?) my sister made about a website where rich people compete to give charity.  
   
 Logo by Dark Nature from Pixabay  
 https://pixabay.com/users/dark_lone_nature-3815284/  
