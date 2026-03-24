@@ -112,6 +112,7 @@ h2 {
 	display: flex;
 	flex: 1 0 100%;	
 	margin: 0 auto;
+	margin-bottom: 4%;
 	justify-content: center;
 	font-size: 36px;
 	color: #1F2937;
@@ -154,7 +155,7 @@ button.signup {
 }
 
 button.signup {
-	padding: 4px 15px;
+	padding: 4px 18px;
 }
 
 #one button.signup {
@@ -164,23 +165,25 @@ button.signup {
 /* Content Margin */
 .header,
 div.row,
+#four,
 .footer {
-	padding: 1% 15%;
+	padding: 4% 15%;
 }
 
 #two,
 #three {
-	padding: 0 20%;
+	padding: 4% 20%;
 }
 
 /* Content Margin */
 
 div.action {
 	display: flex;
-	padding: 16px;
+	padding: 3rem 7rem;
 	align-items: center;
 	justify-content: space-between;
 	flex-flow: row;
+	flex: 1;
 }
 
 #three p {
@@ -212,7 +215,13 @@ div.action {
 	align-items: center;
 	justify-content: flex-start;
 	flex: 2;
-	flex-flow: wrap;
+	flex-flow: column nowrap;
+	gap: 5px;
+}
+
+.actionleft > * {
+	align-self: flex-start;
+	margin: 0;
 }
 
 .actionright {
