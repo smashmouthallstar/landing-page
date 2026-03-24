@@ -156,6 +156,7 @@ button.signup {
 
 button.signup {
 	padding: 4px 18px;
+	font-weight: bold;
 }
 
 #one button.signup {
